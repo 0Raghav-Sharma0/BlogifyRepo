@@ -1,0 +1,104 @@
+.containerxx{
+    /* border: 1px solid ; */
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 1px -1px  1px rgba(223, 220, 219, 0.748) , -1px 1px  1px rgba(123, 119, 119, 0.672);
+    opacity: 40%;
+    
+}
+
+.fcfln{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerxx:hover{
+    opacity: 90%;
+    transition: all;
+    animation-duration: 3s;
+}
+
+
+
+
+
+.a{
+    border: 1px solid rgba(255, 255, 255, 0.171);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    width: fit-content;
+
+}
+
+.b{
+    border: 1px solid rgba(255, 255, 255, 0.171);;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    width: fit-content;
+
+}
+
+
+.c{
+    border: 1px solid rgba(255, 255, 255, 0.171);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    width: fit-content;
+
+}
+
+
+label{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.38);
+}
+
+.kjbuy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sdd{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cr{
+    border-bottom: 2px solid rgba(255, 255, 255, 0.124);
+    margin-bottom: 20px;
+}
+
+
+.cr h1 {
+    color: rgba(255, 255, 255, 0.428);
+}
+
+input{
+    background-color: rgba(255, 255, 255, 0.357);
+}
+
+.sdd button{
+    background-color: black;
+    border: 1px solid white;
+}

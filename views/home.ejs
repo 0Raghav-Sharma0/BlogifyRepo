@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('./partials/head') %>
+</head>
+
+<body>
+    <%- include('./partials/nav') %>
+        <% if (locals.user) { %>
+            <div class="container">
+                <div class="row row-cols-3 pt-5 row gy-4 pb-5">
+                    <% if (blogs && blogs.length > 0) { %>
+                        <% blogs.forEach(blog => { %>
+                            <div class="col kyadf">
+                                <div class="card XSEFG col" style="width: 18rem">
+                                    <img src="<%= blog.coverImageURL %>" class="card-img-top" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">
+                                            <%= blog.title %>
+                                        </h5>
+                                        <a href="/blog/<%= blog._id %>" class="btn btn-primary">View</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <% }) %>
+                                <% } else { %>
+                                    <!-- If no blogs, display a message or something else if needed -->
+                                    <p>No blogs available at the moment.</p>
+                                    <% } %>
+                </div>
+            </div>
+
+            <% } else { %>
+                <!-- If user is not logged in, apply background image -->
+
+
+                <div class="a1">
+
+                    <div class="b">
+
+                        <div>
+                            <h1>What is Blog ?</h1>
+                        </div>
+
+                        <div class="" id="nkhi">
+                            <p>A blog is an online platform where individuals or groups regularly publish content, usually in an informal or conversational style. Blogs can be personal, professional, or business-oriented, covering a wide range of topics
+                                like technology, travel, health, fashion, and more.</p>
+                        </div>
+
+                        <div class="xx">
+                            <button>Visit Blogs</button>
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="hogya">
+                        <div id="images1">
+                            <div>
+                                <img class="jjii" src="https://img.freepik.com/premium-photo/leafless-dry-black-tree-with-spooky-blood-red-sky-scary-horror-tree-nature-background-halloween_696486-52.jpg" alt="">
+                            </div>
+
+                            <div>
+                                <img class="jjii" src="https://us.123rf.com/450wm/zeferli/zeferli1806/zeferli180600509/105473860-old-house-with-a-ghost-in-the-forest-at-night-or-abandoned-haunted-horror-house-in-fog-old-mystic.jpg?ver=6" alt="">
+                            </div>
+                        </div>
+
+                        <div id="images2">
+                            <div>
+                                <img class="jjii" src="https://us.123rf.com/450wm/ailikecreative/ailikecreative2307/ailikecreative230701300/208601358-dark-forest-road-at-night-with-fog-and-light-halloween-concept.jpg?ver=6" alt="">
+                            </div>
+
+                            <div>
+                                <img class="jjii" src="https://st5.depositphotos.com/1826914/62508/i/450/depositphotos_625080820-stock-photo-creative-double-shot-forest-dwingelderveld.jpg" alt="">
+                            </div>
+
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+                <% } %>
+                    <%- include("./partials/script.js") %>
+</body>
+
+</html>

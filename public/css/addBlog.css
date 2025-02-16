@@ -1,0 +1,88 @@
+#SubmitBlog button{
+    font-weight: 700;
+    background-color: rgb(16, 16, 16);
+    border: solid white;
+}
+
+
+#SubmitBlog button:hover{
+    background-color: white;
+    color: black;
+    border: solid black;
+}
+
+
+
+#cover{
+    align-items: center;
+    width: fit-content;
+    height: 30px;
+    display: flex;
+}
+
+
+#formm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    /* border-color: white; */
+    height: 400px;
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 1px -1px 3px red ;
+}
+
+#formm:hover{
+    box-shadow: 4px 4px 20px rgb(142, 17, 17);
+}
+
+
+#great{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+input{
+    height: 30px;
+}
+
+textarea{
+    height: 30px;
+  width: 250px;
+}
+
+
+
+
+#file{
+    width: 250px;
+    border-top: 2px;
+    border: solid rgba(200, 18, 18, 0.321);
+    background-color: black;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-top-left-radius:30px;
+    border-bottom-right-radius: 30px;
+
+}
+
+#text{
+    width: 250px;
+    background-color: rgb(248, 234, 234);
+    color: rgb(13, 4, 4);
+    border-radius: 20px;
+   
+
+}
+
+#area{
+    height: 30px;
+    width: 250px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+}

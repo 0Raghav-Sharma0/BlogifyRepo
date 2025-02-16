@@ -1,0 +1,220 @@
+.blogtitle{
+    color: rgba(255, 255, 255, 0.339);
+    border: 1px solid #ffffff39;
+    width: fit-content;
+    padding-left: 20px;
+    padding-right:20px ;
+    border-radius: 20px;
+    font-size: 30px;
+}
+
+
+
+.containerB{
+    border-bottom:1px solid white ;
+    background-color: rgba(8, 7, 7, 0.015);
+}
+
+#imgI{
+    border-radius: 30px;
+}
+
+.descrip{
+    color:rgba(255, 255, 255, 0.205);
+    border-top:  1px solid white;
+    width: fit-content;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    opacity:20%;
+    border-radius: 5px;
+ 
+}
+
+.descrip:hover{
+    opacity: 100%;
+}
+
+.contianerng{
+    display: flex;
+    gap: 10px;
+}
+
+.bolgCre{
+    color: rgb(246, 243, 243);
+    background-color: rgba(9, 6, 6, 0.341);
+    opacity: 40%;
+    padding: 1px;
+    border-radius: 10px;
+    border-bottom: 2px solid white;
+}
+
+
+
+#prof{
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+}
+
+
+.containernggg{
+    display:  flex;
+    gap: 10px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.332);
+    padding-bottom: 10px;
+}
+
+.containernggg a{
+    background-color: white;
+    color:  rgba(0, 0, 0, 0.803);
+    font-weight: bold;
+    
+}
+
+#aaaa{
+    padding-top: 10px;
+}
+
+.containercomme{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.302) ;
+}
+
+#cc{
+    height: 30px;
+    width: fit-content;
+}
+
+#colng{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.179) ;
+
+    padding-bottom: 10px;
+}
+
+
+#bbbb{
+    height: fit-content;
+    width: fit-content;
+}
+
+.fgh{
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.huge{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+#hug{
+    border: 1px solid rgba(255, 255, 255, 0.313);
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    gap:90px;
+}
+
+
+
+.commet{
+    padding-bottom: 20px;
+}
+
+
+#blo2{
+    padding-top: 50px;
+}
+
+
+#ghghlk{
+    font-size: 20px;
+}
+
+#jkhloj{
+    color: rgb(255, 249, 249);
+    border: 0px;
+    opacity: 100%;
+    border-left: 1px solid white;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+#kloi{
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    opacity: 100%;
+}
+
+
+#hug{
+    box-shadow: 2px 2px 3px red, -1px -1px 3px rgba(195, 195, 200, 0.189);
+}
+
+
+#hug:hover{
+    box-shadow: 3px 2px 3px red, -2px -3px 3px rgba(195, 195, 200, 0.189);
+}
+
+
+#kolp{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding-left: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    
+}
+
+#olpo{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.912);
+    
+}
+
+#plohk{
+    padding-left: 40px;
+    padding-right: 10px;
+    font-weight: 100;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.745);
+
+}
+
+.commet{
+    /* border:  1px solid rgba(255, 255, 255, 0.278); */
+    height: 200px;
+    overflow-x: hidden;
+    width: 400px;
+    scrollbar-width: none;
+}
+
+
+#kolp:hover{
+    border-bottom: 1px solid red;
+}
+
+
+
+#blogggchutiya{
+    max-height: 100px;
+    width: 400px;
+    /* overflow-y: hidden; */
+    overflow-y: scroll;
+    scrollbar-width: none;
+}

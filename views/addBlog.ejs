@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include("./partials/head.ejs") %>
+        <title>Add New Blog</title>
+</head>
+
+<body>
+    <%- include("./partials/nav.ejs") %>
+        <form action="/blog" method="post" enctype="multipart/form-data">
+
+            <div id="great">
+                <div id="formm">
+
+
+
+                    <div class="mb-3">
+                        <!-- <label for="title" class="form-label">Title</label> -->
+                        <input id="text" type="text" placeholder="Add title to Blog" id="title" class="form-control" name="title" aria-describedby="title">
+                    </div>
+
+                    <div class="mb-3" id="cover">
+                        <!-- <label for="cover-Image" class="form-label">Cover Image</label> -->
+                        <input id="file" type="file" id="cover-Image" class="form-control" name="cover-Image" aria-describedby="cover-Image">
+                    </div>
+
+
+
+                    <div class="mb-3">
+                        <!-- <label for="body" class="form-label">Body</label> -->
+                        <textarea id="area" class="form-control" placeholder="Leave a comment here" id="body" name="body"></textarea>
+                    </div>
+
+
+                    <div class="mb-3" id="SubmitBlog">
+                        <button class="btn btn-primary" id="xde">Submit</button>
+                    </div>
+                </div>
+            </div>
+
+
+        </form>
+        <%- include("./partials/script.js") %>
+</body>
+
+</html>

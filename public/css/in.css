@@ -1,0 +1,27 @@
+.ging{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: fit-content;
+    width: fit-content;
+    border: 1px solid rgba(9, 1, 1, 0.025);
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 1px -1px 4px red;
+}
+
+.in{
+    font-size: 30px;
+    font-weight: bold;
+    border: 1px solid white;
+    width: fit-content;
+    padding: 2px;
+    padding-left: 10px;
+    border-radius: 8px;
+    padding-right:10px ;
+}
+
+.containerss{
+    display: flex;
+    justify-content: center;
+}

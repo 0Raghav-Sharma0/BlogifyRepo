@@ -1,0 +1,115 @@
+.card-title{
+    font-weight: 400;
+    color: white;
+    border: 1px solid;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card-title:hover{
+    background-color: black;
+    color: white;
+    
+}
+
+.btn-primary{
+    font-weight: 800;
+    background-color: rgb(229, 9, 9);
+}
+
+.btn-primary:hover{
+    background-color: #9d909085;
+    /* border: 1px solid rgb(247, 242, 242); */
+}
+
+p{
+    font-weight: bolder;
+    color:  white;
+}
+
+
+.card{
+background-color: rgba(4, 4, 16, 0.478);
+border: solid rgba(255, 255, 255, 0.305) 1px;
+
+}
+
+.card:hover{
+    box-shadow: 1px -2px  10px rgb(90, 88, 88);
+}
+
+
+.a1{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.b{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 2px solid white;
+    height: fit-content;
+    width: fit-content;
+}
+
+.jjii:hover{
+    opacity: 100%;
+}
+
+
+
+button{
+    height: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+
+#nkhi p{
+    color: rgba(255, 255, 255, 0.704);
+}
+
+#nkhi{
+    border: 1px solid rgba(255, 255, 255, 0.135);
+    width: 400px;
+    padding: 10px;
+}
+
+
+.jjii{
+    height: 200px;
+    width: 300px;
+    border-radius: 50px;
+    opacity: 30%;
+}
+
+
+#images1{
+   display: flex;
+   gap: 20px;
+}
+
+
+#images2{
+    display: flex;
+    gap: 20px;
+ 
+ 
+ 
+ }
+
+
+.hogya{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+

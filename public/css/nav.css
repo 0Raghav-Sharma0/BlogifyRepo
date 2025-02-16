@@ -1,0 +1,85 @@
+#nlog{
+    border-radius: 10px;
+    
+}
+
+#na{
+    font-weight: 600;
+}
+
+#nlog:hover{
+    transition: all;
+    animation-duration: 2s;
+    background-color: rgb(14, 13, 13);
+    border:solid 1px;
+    border-color: white;
+    color:rgba(255, 255, 255, 0.981);
+}
+
+#na:hover{
+    color:rgba(255, 255, 255, 0.981);
+}
+
+
+
+#ngdiv{
+    display: flex;
+    gap: 10px;
+
+}
+
+
+
+.innnn{
+    background-color: rgb(6, 5, 5);
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+
+.crrrr{
+    font-weight: bold;
+    border: 1px  solid white;
+    border-radius: 10px;
+}
+
+.gg{
+    display:  flex;
+    justify-content:end;
+
+
+}
+
+
+.llll{
+    display: flex;
+    font-size: bold;
+    gap: 10px;
+}
+
+
+
+#ggghhhhlll{
+    background-color: rgb(170, 31, 31);
+    border-radius: 10px;
+    font-weight: bold;
+    padding-top: 14px;
+    border-bottom: 2px solid white;
+  
+}
+
+#ggghhhhlll:hover{
+ background-color: black;
+ border:1px solid red
+}
+
+
+#homemmm{
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+#homemmm:hover{
+    border-bottom: 1px solid red;
+}
+

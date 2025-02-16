@@ -1,0 +1,74 @@
+#rgd{
+    height: fit-content;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    box-shadow: 1px 1px 2px red;
+
+    border-top: 1px solid red;
+    border-bottom-left-radius: 100px;
+    border-top-left-radius: 100px;
+}
+
+
+#rgd:hover{
+    box-shadow: 1px -1px 2px rgb(187, 9, 9) , -1px 1px 2px red ; 
+}
+
+#edi .hhh{
+    padding: 5px;
+    border: 1px solid white;
+    background-color: rgba(18, 17, 17, 0.233);
+    color: rgba(255, 255, 255, 0.937);
+    height: fit-content;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+.containerhh{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.xxxxx{
+    height: fit-content;
+    width: 120px;
+}
+
+
+
+.mm{
+    height: fit-content;
+    width: 120px;
+}
+.mmm{
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#cover-Image{
+    width: 120px;
+    padding-bottom: 10px;
+    
+}
+
+.hhhhhhh{
+    padding-top:24px ;
+border-radius: 5px;
+    width: 40px;
+}
+
+
+
+
+
